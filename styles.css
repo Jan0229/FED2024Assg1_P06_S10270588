@@ -373,7 +373,7 @@
     text-decoration: none;
   }
   a:hover {
-    color: grey;
+    color: rgb(72, 72, 72);
     text-decoration: none;
   }
 
@@ -402,9 +402,43 @@
   .band-logo {
     position: absolute;
     bottom: 20px;
-}
+  }
 
   .header {
     font-size: 50px;
     text-align: center;
   }
+
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(73, 104, 122);
+  }
+
+  .index-h {
+    max-width: 450px; 
+    text-align: center;
+  }
+
+  .info {
+    font-weight: bold;
+  }
+
+  .dela-gothic-one-regular {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+  }  
+
+  .shippori-mincho-regular {
+    font-family: "Shippori Mincho", serif;
+    font-weight: 400;
+  }
+  
