@@ -549,3 +549,29 @@
     display: flex;
     padding-top: 50px;
   }
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+input, select, button {
+  font-size: 15px;
+  padding: 7px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.form-boxes {
+  width: 20%;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+}
