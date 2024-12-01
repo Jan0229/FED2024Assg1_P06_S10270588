@@ -508,9 +508,26 @@
   .date-box {
     background-color: rgb(73, 104, 122);
     text-align: center;
-    width: 10%;
     padding: 10px;
+    width: 80px;
+    height: 80px;
     display: flex;
     justify-content: center;
-    align-items: center;
-}
+    align-items: center; 
+  }
+
+  .event {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  .event-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1000px;
+    margin-left: 50px;
+  }
