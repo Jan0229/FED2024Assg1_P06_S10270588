@@ -432,6 +432,10 @@
     font-size: 20px;
   }
 
+  .about-container {
+    padding: 10px;
+  }
+
   .member-text {
     font-size: 20px;
     text-align: center;
@@ -500,3 +504,13 @@
     text-align: center;
     width: 85%;
   }
+
+  .date-box {
+    background-color: rgb(73, 104, 122);
+    text-align: center;
+    width: 10%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
