@@ -16,3 +16,28 @@ This page would be more for the users are getting to know the band. From here th
 Event & booking page:
 From the event page useres are able to view details about the band's upcoming live performaces. Details include the date, time and location of the live performace. After finding a live performace they wish to attend, they can click or press on the event and be brough to the booking page. At the booking page, users can enter in their name, email, seating option and the number of tickets they want. Once they are done, they will click or press the 'Get tickets' button and there will be an alert letting them know they have booked tickets.
 Only the first event has a link as the layout is they same for all events, only the header text changes.
+
+## Credits
+w3schools, copilot and chatgpt:
+Use to figure out code for some sections
+
+uxwing:
+Website used to download social media icons
+
+YouTube:
+All videos were taken from SID's YouTube account, image used in background was taken from their cover in YouTube music
+
+Crimson lotus:
+Images of the members in the about page was from this website
+
+Wikipedia:
+Information use in the about section was taken from here, band logo was also taken from here
+
+Jpop wiki:
+Member's information was taken from here
+
+https://sid-web.info/:
+SID's offcial website, information for event page was taken from here
+
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQI9Jl8d69cNTT14lOAtPynIOasuObS-OPsA&s:
+Seating plan used in booking page
