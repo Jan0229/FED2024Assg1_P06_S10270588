@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Shippori+Mincho&family=Yuji+Mai&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="booking-header">
+        <ul>
+            <li><a href="Events.html"><i class="arrow left"></i></a></li>
+            <li>
+                <div class="event shippori-mincho-regular">
+                    <div class="date-box"><h2>Oct<br>13</h2></div>
+                    <h2 class="info">SID HALL TOUR 2024 ~Monochrome Circus~<br>Sunday, 5:00pm - Saitama, SONIC CITY</h2>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <br><br><br>
+    <img src="Images/seating.jpeg" alt="seating plan" height="500" width="auto">
+    <br><br><br>
+    <label for="name">Name:</label><br>
+    <input type="text" name="name" id="name">
+    <br>
+    <label for="email">Email:</label><br>
+    <input type="text" name="email" id="email">
+    <br>
+    <label for="seating">Seating option:</label><br>
+    <select name="seating" id="seating">
+        <option value="b">B</option>
+        <option value="a">A</option>
+        <option value="s">S</option>
+        <option value="ss">SS</option>
+        <option value="vip s">VIP S</option>
+        <option value="vip ss">VIP SS</option>
+    </select>
+    <br>
+    <label for="quantity">Qunatity:</label><br>
+    <input type="text" name="quantity" id="quantity">
+    <br>
+    <button type="button">Get tickets!</button>
+</body>
+</html>
