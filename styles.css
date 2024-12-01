@@ -531,3 +531,21 @@
     max-width: 1000px;
     margin-left: 50px;
   }
+
+  .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 20px;
+  }
+
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+
+  .booking-header {
+    background-color: rgb(128, 156, 172);
+    display: flex;
+    padding-top: 50px;
+  }
