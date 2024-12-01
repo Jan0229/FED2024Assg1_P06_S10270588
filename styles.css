@@ -555,6 +555,11 @@
     justify-content: center;
   }
 
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+
   label {
     font-size: 20px;
     margin-left: 20px;
@@ -589,4 +594,22 @@
   .booking-links a:hover {
     color: white;
     text-decoration: none;
+  }
+
+  @media (max-width: 768px) {
+    .video-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-container img {
+      margin-left: 20px;
+      margin-right: 20px;
+      width: calc(100% - 40px);
+    }
+  }
+
+  iframe {
+    max-width: 100%;
+    height: auto;
   }
