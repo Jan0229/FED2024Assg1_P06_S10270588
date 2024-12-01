@@ -348,11 +348,23 @@
     display: none;
   }
 
-
+  /* Background */
   body {
     background-color: rgb(120, 136, 154);
   }
 
+  /* Fonts used */
+  .dela-gothic-one-regular {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+  }  
+  
+  .shippori-mincho-regular {
+    font-family: "Shippori Mincho", serif;
+    font-weight: 400;
+  }
+
+  /* Navigation bar */
   ul {
     list-style-type: none;
     overflow: hidden;
@@ -385,6 +397,7 @@
     text-decoration: none;
   }
 
+  /* Header */
   .background {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, rgb(120, 136, 154)), 
       url('Images/SID.jpg');
@@ -410,6 +423,7 @@
     text-align: center;
   }
 
+  /* To hold video and related info */
   .video-container {
     display: flex;
     justify-content: center;
@@ -418,17 +432,20 @@
     margin-bottom: 50px;
   }
 
+  /* Footer */
   footer {
     text-align: center;
     padding: 3px;
     background-color: rgb(73, 104, 122);
   }
 
+  /* Used for video info */
   .index-text {
     max-width: 450px; 
     text-align: center;
   }
   
+  /* About page */
   .about-text {
     font-size: 20px;
   }
@@ -444,16 +461,6 @@
 
   .info {
     font-weight: bold;
-  }
-
-  .dela-gothic-one-regular {
-    font-family: "Dela Gothic One", sans-serif;
-    font-weight: 400;
-  }  
-
-  .shippori-mincho-regular {
-    font-family: "Shippori Mincho", serif;
-    font-weight: 400;
   }
   
   .container {
@@ -505,7 +512,8 @@
     text-align: center;
     width: 85%;
   }
-
+  
+  /* Event page */
   .date-box {
     background-color: rgb(73, 104, 122);
     text-align: center;
@@ -533,6 +541,7 @@
     margin-left: 50px;
   }
 
+  /* Booking page */
   .arrow {
     border: solid black;
     border-width: 0 3px 3px 0;
@@ -556,22 +565,6 @@
     justify-content: center;
   }
 
-  label {
-    font-size: 20px;
-    margin-left: 20px;
-  }
-
-  input, select, button {
-    font-size: 15px;
-    padding: 7px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-  }
-
-  .form-boxes {
-    width: 20%;
-  }
-
   button {
     border: none;
     border-radius: 5px;
@@ -592,10 +585,29 @@
     text-decoration: none;
   }
 
+  /* Form */
+  label {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  input, select, button {
+    font-size: 15px;
+    padding: 7px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+
+  .form-boxes {
+    width: 20%;
+  }
+
+  /* Remover border on videos */
   iframe {
     border: 0;
   }
 
+  /* Responsive design */
   @media (max-width: 768px) {
     .video-container {
         flex-direction: column;
