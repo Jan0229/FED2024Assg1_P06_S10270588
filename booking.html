@@ -16,31 +16,42 @@
                     <div class="date-box"><h2>Oct<br>13</h2></div>
                     <h2 class="info">SID HALL TOUR 2024 ~Monochrome Circus~<br>Sunday, 5:00pm - Saitama, SONIC CITY</h2>
                 </div>
-            </li>
+            </li> 
         </ul>
     </div>
     <br><br><br>
-    <img src="Images/seating.jpeg" alt="seating plan" height="500" width="auto">
+    <div class="image-container">
+        <img src="Images/seating.jpeg" alt="seating plan" height="500" width="auto">
+    </div>
     <br><br><br>
-    <label for="name">Name:</label><br>
-    <input type="text" name="name" id="name">
-    <br>
-    <label for="email">Email:</label><br>
-    <input type="text" name="email" id="email">
-    <br>
-    <label for="seating">Seating option:</label><br>
-    <select name="seating" id="seating">
-        <option value="b">B</option>
-        <option value="a">A</option>
-        <option value="s">S</option>
-        <option value="ss">SS</option>
-        <option value="vip s">VIP S</option>
-        <option value="vip ss">VIP SS</option>
-    </select>
-    <br>
-    <label for="quantity">Qunatity:</label><br>
-    <input type="text" name="quantity" id="quantity">
-    <br>
-    <button type="button">Get tickets!</button>
+
+    <form>
+        <label for="name" class="shippori-mincho-regular"><b>Name:</b></label><br>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="email" class="shippori-mincho-regular"><b>Email:</b></label><br>
+        <input type="text" name="email" id="email" class="form-boxes">
+        <br>
+        <label for="seating" class="shippori-mincho-regular"><b>Seating option:</b></label><br>
+        <select name="seating" id="seating">
+            <option value="b">B</option>
+            <option value="a">A</option>
+            <option value="s">S</option>
+            <option value="ss">SS</option>
+            <option value="vip s">VIP S</option>
+            <option value="vip ss">VIP SS</option>
+        </select>
+        <br>
+        <label for="quantity" class="shippori-mincho-regular"><b>Quantity:</b></label><br>
+        <select name="quantity" id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <br>
+        <button type="button" class="shippori-mincho-regular"><b>Get tickets!</b></button>
+    </form>
 </body>
 </html>
